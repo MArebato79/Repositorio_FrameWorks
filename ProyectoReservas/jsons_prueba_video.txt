@@ -1,0 +1,116 @@
+
+Inserts de aulas en formato JSON:
+{
+  "nombre": "Laboratorio Redes",
+  "capacidad": 30,
+  "esDeOrdenadores": true,
+  "numeroOrdenadores": 30
+
+}
+{
+  "nombre": "Sala Magna",
+  "capacidad": 150,
+  "esDeOrdenadores": false,
+  "numeroOrdenadores": 0
+}
+{
+    "nombre": "Aula Clásica 205",
+    "capacidad": 40,
+    "esDeOrdenadores": false,
+    "numeroOrdenadores": 0
+}
+{
+    "nombre": "Estudio Multimedia",
+    "capacidad": 18,
+    "esDeOrdenadores": true,
+    "numeroOrdenadores": 18
+}
+{
+    "nombre": "Sala de Juntas B1",
+    "capacidad": 8,
+    "esDeOrdenadores": false,
+    "numeroOrdenadores": 0
+}
+inserts de horarios en formato JSON:
+{
+    "dia": "LUNES",
+    "sesionDia": 1,
+    "horaInicio": "08:30:00",
+    "horaFim": "10:00:00",
+    "tipo": "LECTIVO"
+}
+{
+    "dia": "MARTES",
+    "sesionDia": 3,
+    "horaInicio": "11:30:00",
+    "horaFim": "13:00:00",
+    "tipo": "LECTIVO"
+}
+{
+    "dia": "MIERCOLES",
+    "sesionDia": 4,
+    "horaInicio": "17:00:00",
+    "horaFim": "17:30:00",
+    "tipo": "RECREO"
+}
+{
+    "dia": "VIERNES",
+    "sesionDia": 5,
+    "horaInicio": "18:00:00",
+    "horaFim": "19:00:00",
+    "tipo": "LECTIVO"
+}
+{
+    "dia": "JUEVES",
+    "sesionDia": 2,
+    "horaInicio": "10:00:00",
+    "horaFim": "11:00:00",
+    "tipo": "MEDIO_DIA"
+}
+
+Inserts de reservas en formato JSON:
+
+{
+    "fechaReserva": "2026-03-10",
+    "motivo": "Clase de Base de Datos",
+    "numeroAsistentes": 28,
+    "aulaId": 1,
+    "horarioId": 1,
+    "usuarioId": 1
+}
+
+{
+    "fechaReserva": "2026-03-11",
+    "motivo": "Conferencia Anual",
+    "numeroAsistentes": 120,
+    "aulaId": 2,
+    "horarioId": 2,
+    "usuarioId": 1
+}
+
+{
+    "fechaReserva": "2026-03-12",
+    "motivo": "Reunión del Departamento de Jefatura",
+    "numeroAsistentes": 5,
+    "aulaId": 5,
+    "horarioId": 3,
+    "usuarioId": 1
+}
+
+{
+    "fechaReserva": "2026-03-13",
+    "motivo": "Prácticas de Edición de Video",
+    "numeroAsistentes": 15,
+    "aulaId": 4,
+    "horarioId": 4,
+    "usuarioId": 1
+}
+
+{
+    "fechaReserva": "2026-03-16",
+    "motivo": "Clase de Introducción a Java",
+    "numeroAsistentes": 35,
+    "aulaId": 3,
+    "horarioId": 5,
+    "usuarioId": 1
+}
